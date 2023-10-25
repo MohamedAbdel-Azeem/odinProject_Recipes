@@ -1,0 +1,56 @@
+body{
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 30px;
+}
+
+.card {
+    display: inline-block;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 30px 5px rgb(0, 0, 0, 0.15);
+    text-align: center;
+    margin: 50px;
+}
+
+.card :hover{
+    text-align: center;
+    margin: 70px;
+    padding: 50px;
+}
+
+.recipes{
+    margin: 0 auto;
+    text-align: center;
+}
+
+section{
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    color: #011562;
+}
+
+.Ingredients{
+    display: block;
+    padding: 10px;
+    box-shadow: 0px 5px 30px 5px rgb(0, 0, 0, 0.15);
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 30px;
+}
+
+ul,ol {
+    text-align: left;   
+}
